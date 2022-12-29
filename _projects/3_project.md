@@ -3,7 +3,7 @@ layout: page
 title: LALA
 description: Building Capacity to use Learning Analytics to improve Higher Education in Latin America
 img: assets/img/lala.webp
-importance: 1
+importance: 3
 category: work
 ---
 

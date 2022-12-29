@@ -2,7 +2,7 @@
 layout: page
 title: Bipartite Graph Community Detection
 description: 
-img: assets/img/biLouvain.png
+img: assets/img/logobiLouvain.png
 #redirect: https://unsplash.com
 importance: 1
 category: work
