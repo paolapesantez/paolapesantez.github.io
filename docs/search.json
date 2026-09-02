@@ -7,11 +7,11 @@
     "text": "Curriculum vitae"
   },
   {
-    "objectID": "cv.html#appointments",
-    "href": "cv.html#appointments",
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
     "title": "CV",
-    "section": "Appointments",
-    "text": "Appointments\nPostdoctoral Researcher, Dept. of Computational Biology, University Name — 2024–present\nPhD, Ecology & Evolutionary Biology, University Name — 2019–2024 Dissertation: Network resilience in disturbed marine ecosystems, advised by Prof. J. Doe\nBSc, Applied Mathematics, University Name — 2015–2019"
+    "section": "Education",
+    "text": "Education\nPhD, Computer Science, EECS, Washington State University — 2013–2018 Dissertation: Bipartite Network Community Detection: Algorithms and Applications, advised by Dr. Ananth Kalyanamaran\nMSc, Computer Science, EECS, Washington State University — 2011–2013\nBSc, Computer Science, Universidad de Cuenca — 2003–2009"
   },
   {
     "objectID": "cv.html#selected-publications",
@@ -21,25 +21,11 @@
     "text": "Selected publications\n(Full list with abstracts and links on the Publications page.)\n\nGoebel, K., Solow, W., Pesantez-Cabrera, P., Keller, M., & Fern, A. (2026). Budgeted {Online} {Active} {Learning} with {Expert} {Advice} and {Episodic} {Priors. Proceedings of the AAAI Conference on Artificial Intelligence, 40(45), 38496–38504.\nDinkins, T., Wong, W., Amogi, B., Pesantez-Cabrera, P., Patel, J., Khot, L., & Fern, A. (2026). Localized {Near} {Surface} {Temperature} {Inversion} {Forecasting} {Using} {Long} {Short}-{Term} {Memory. Proceedings of the AAAI Conference on Artificial Intelligence, 40(47), 40249–40257.\nSolow, W., Pesantez-Cabrera, P., Keller, M., Khot, L., Saisubramanian, S., & Fern, A. (2026). A {Hybrid} {Modeling} {Framework} for {Crop} {Prediction} {Tasks} via {Dynamic} {Parameter} {Calibration} and {Multi}-{Task} {Learning. **.\nGoebel, K., Pesantez-Cabrera, P., Keller, M., & Fern, A. (2025). Transfer {Learning} via {Auxiliary} {Labels} with {Application} to {Cold}-{Hardiness} {Prediction. .\nGoebel, K., Solow, W., Pesantez-Cabrera, P., Keller, M., & Fern, A. (2025). Budgeted {Online} {Active} {Learning} with {Expert} {Advice} and {Episodic} {Priors. .\nGoebel, K., Pesantez-Cabrera, P., Keller, M., & Fern, A. (2025). Transfer {Learning} via {Auxiliary} {Labels} with {Application} to {Cold}-{Hardiness} {Prediction. .\nDinkins, T., Wong, W., Amogi, B., Pesantez-Cabrera, P., Patel, J., Khot, L., & Fern, A. (2025). Localized {Near} {Surface} {Temperature} {Inversion} {Forecasting} using {Long} {Short}-{Term} {Memory. **.\nBalcarcel, N., Pesantez-Cabrera, P., Goebel, K., Keller, M., Khot, L., Fern, A., & Kalyanaraman, A. (2025). PhenoTracker}: {A} machine learning model to track grape phenology. Workshop {Proceedings} of the 54th {International} {Conference} on {Parallel} {Processing}.\nFern, A., Burnett, M., Davidson, J., Doppa, J.R., Pesantez-Cabrera, P., & Kalyanaraman, A. (2024). AgAID} {Institute}—{AI} for agricultural labor and decision support. AI Magazine, 45(1).\nSaxena, A., Pesantez-Cabrera, P., Ballapragada, R., Lam, K., Keller, M., & Fern, A. (2023). Grape {Cold} {Hardiness} {Prediction} via {Multi}-{Task} {Learning. Proceedings of the AAAI Conference on Artificial Intelligence, 37(13), 15717–15723.\nSaxena, A., Pesantez, P.G., Ballapragada, R., Keller, M., & Fern, A. (2023). Multi {Task} {Learning} for {Budbreak} {Prediction. **.\nWelankar, S., Pesantez-Cabrera, P., Krishnamoorthy, B., Mills, L., Keller, M., & Kalyanaraman, A. (2023). Persistent {Homology} to {Study} {Cold} {Hardiness} of {Grape} {Cultivars. ."
   },
   {
-    "objectID": "cv.html#grants-awards",
-    "href": "cv.html#grants-awards",
-    "title": "CV",
-    "section": "Grants & awards",
-    "text": "Grants & awards\n\nNational Science Foundation, Award #0000000 — 2024–2027\nUniversity Name Dean’s Fellowship — 2019"
-  },
-  {
     "objectID": "cv.html#selected-talks",
     "href": "cv.html#selected-talks",
     "title": "CV",
     "section": "Selected talks",
     "text": "Selected talks\n\n121st Annual Meeting and NW Hort Expo, “Persistir y Adaptarse Desafíos y Oportunidades de la Integración de la Inteligencia Artificial en la Agricultura,” Washington Tree Fruit Association, December 8-10, 2025.\nSTEM Possible 2025 Event, “The AgAID Institute,” First Nations MESA Program, May 23rd, 2025.\nWineVit2025, “GrapeHardiNet: The AgAID Institute model to predict Cold Hardiness”, Washington Winegrowers Association, February 12, 2025."
-  },
-  {
-    "objectID": "cv.html#teaching",
-    "href": "cv.html#teaching",
-    "title": "CV",
-    "section": "Teaching",
-    "text": "Teaching\n\nQuantitative Methods in Ecology, instructor — Spring 2026\nIntroduction to Dynamical Systems, teaching assistant — 2022, 2023"
   },
   {
     "objectID": "cv.html#service",
@@ -63,20 +49,6 @@
     "text": "Get in touch\n\n\nI’m happy to hear from prospective collaborators at p_._p_e_s_a_n_t_e_z_c_a_b_r_e_r_a@wsu.edu (remove the underscores)."
   },
   {
-    "objectID": "contact.html#office",
-    "href": "contact.html#office",
-    "title": "Contact",
-    "section": "Office",
-    "text": "Office\nDept. of Computational Biology University Name Building, Room 000 City, State ZIP"
-  },
-  {
-    "objectID": "contact.html#mailing-list",
-    "href": "contact.html#mailing-list",
-    "title": "Contact",
-    "section": "Mailing list",
-    "text": "Mailing list\n(Optional — remove if you don’t want a signup form. Wire this to a service like Buttondown or Mailchimp if you add one.)"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -84,25 +56,32 @@
     "text": "Research Statement"
   },
   {
-    "objectID": "research.html#what-i-work-on",
-    "href": "research.html#what-i-work-on",
+    "objectID": "research.html#data-management-frameworks",
+    "href": "research.html#data-management-frameworks",
     "title": "Research",
-    "section": "What I work on",
-    "text": "What I work on\nMy research asks a simple question with a complicated answer: why do some ecosystems bend under pressure and others break? I approach this through three connected threads — network structure, early-warning statistics, and agent-based simulation — combining field data with mathematical models.\nReplace this section with your own research statement. Two to four short paragraphs is typical: what you study, why it matters, and what’s next."
+    "section": "Data Management: Frameworks",
+    "text": "Data Management: Frameworks\nMuch of applied research fails not from a lack of data, but from a lack of structure for managing it. This line of work focuses on designing and implementing research data management frameworks that follow FAIR principles (Findable, Accessible, Interoperable, Reusable), with particular attention to three things:\n\nData governance: defining roles, permissions, and responsibilities across the data lifecycle, from field collection through long-term archiving.\nMetadata & traceability: using standardized metadata schemas (e.g., Dublin Core) so a third party can understand and reuse a dataset without additional context.\nReproducibility: versioned workflows (Git, containers, declarative environments) that guarantee an analysis can be exactly repeated, even years later."
   },
   {
-    "objectID": "research.html#a-note-on-method",
-    "href": "research.html#a-note-on-method",
+    "objectID": "research.html#generative-ai-tools-for-research",
+    "href": "research.html#generative-ai-tools-for-research",
     "title": "Research",
-    "section": "A note on method",
-    "text": "A note on method\nBelow is a live chart, generated by Python at render time (not a static image) — this is the kind of figure a Quarto + Python site is well suited for: the data and the figure stay in sync automatically whenever you re-render.\n\n\n\n\n\n\n\n\nFigure 1: Placeholder data — replace with your own publication or citation counts."
+    "section": "Generative AI: Tools for Research",
+    "text": "Generative AI: Tools for Research\nLanguage models are changing how science gets done, but their value depends on using them with judgment. This line explores concrete applications and their limits:\n\nAssisted literature review: screening and initial synthesis of large volumes of papers, always with human verification of cited sources.\nExploratory data analysis: generating reproducible code (Python/R) for cleaning, visualization, and preliminary modeling — speeding up the exploratory phase without replacing rigorous statistical analysis.\nSynthetic data: generating simulated data to test models or protect sensitive information before sharing a dataset. Ethical & methodological limits: transparently documenting where and how generative AI was used in a project, avoiding treating it as an unverified source of truth."
   },
   {
-    "objectID": "research.html#funding-collaborators",
-    "href": "research.html#funding-collaborators",
+    "objectID": "research.html#workforce-development-technology-transfer",
+    "href": "research.html#workforce-development-technology-transfer",
     "title": "Research",
-    "section": "Funding & collaborators",
-    "text": "Funding & collaborators\nReplace with grant names, funding bodies, and lab or field-site collaborators.\n\nNational Science Foundation, Award #0000000 (2024–2027)\nCollaborators: Dept. of Marine Biology, University Name"
+    "section": "Workforce Development: Technology Transfer",
+    "text": "Workforce Development: Technology Transfer\nResearch and new technology only create value once people can actually use them. This line focuses on workforce development — building the training, documentation, and skill pathways that let research outcomes move out of the lab and into everyday practice:\n\nTechnical training programs: structured courses and workshops that bring practitioners up to speed on new tools, methods, or technologies coming out of the research.\nDocumentation & onboarding materials: clear, practice-oriented guides (not academic papers) that let a new user adopt a tool or method without direct supervision.\nSkills-gap analysis: identifying where a workforce’s current capabilities fall short of what a new technology or method requires, and designing training to close that gap.\nIndustry & institutional partnerships: working directly with employers, agencies, or training bodies so that technology transfer includes the human capacity to sustain it, not just the technology itself."
+  },
+  {
+    "objectID": "research.html#funding",
+    "href": "research.html#funding",
+    "title": "Research",
+    "section": "Funding",
+    "text": "Funding\n\nAI Institute: Agricultural AI for Transforming Workforce and Decision Support (AgAID), USDA-NIFA, in partnership with NSF, Award No.2021-67021-35344.\nWashington Soil Health Initiative supported by the State of Washington and administered by WSCC, WSDA, and WSU."
   },
   {
     "objectID": "notes.html",
@@ -138,40 +117,5 @@
     "title": "Simulating a simple resilience threshold",
     "section": "",
     "text": "This is an example note — replace it with your own. It shows the kind of thing this setup is good for: real Python code, run at render time, sitting next to the explanation.\nWe simulate a population under a simple logistic growth rule with an added stress term, and sweep the stress parameter to find where the population stops recovering.\n\n\n\n\n\n\n\n\nFigure 1: Population trajectories under increasing stress. Placeholder model — replace with your own.\n\n\n\n\n\nAt low stress the population settles into a stable equilibrium. Past a threshold, it can’t recover fast enough between shocks and collapses to zero — the same qualitative behavior discussed on the Research page, here in a model simple enough to fit in one code block."
-  },
-  {
-    "objectID": "research.html#data-management-frameworks",
-    "href": "research.html#data-management-frameworks",
-    "title": "Research",
-    "section": "Data Management: Frameworks",
-    "text": "Data Management: Frameworks\nMuch of applied research fails not from a lack of data, but from a lack of structure for managing it. This line of work focuses on designing and implementing research data management frameworks that follow FAIR principles (Findable, Accessible, Interoperable, Reusable), with particular attention to three things:\n\nData governance: defining roles, permissions, and responsibilities across the data lifecycle, from field collection through long-term archiving.\nMetadata & traceability: using standardized metadata schemas (e.g., Dublin Core) so a third party can understand and reuse a dataset without additional context.\nReproducibility: versioned workflows (Git, containers, declarative environments) that guarantee an analysis can be exactly repeated, even years later."
-  },
-  {
-    "objectID": "research.html#generative-ai-tools-for-research",
-    "href": "research.html#generative-ai-tools-for-research",
-    "title": "Research",
-    "section": "Generative AI: Tools for Research",
-    "text": "Generative AI: Tools for Research\nLanguage models are changing how science gets done, but their value depends on using them with judgment. This line explores concrete applications and their limits:\n\nAssisted literature review: screening and initial synthesis of large volumes of papers, always with human verification of cited sources.\nExploratory data analysis: generating reproducible code (Python/R) for cleaning, visualization, and preliminary modeling — speeding up the exploratory phase without replacing rigorous statistical analysis.\nSynthetic data: generating simulated data to test models or protect sensitive information before sharing a dataset. Ethical & methodological limits: transparently documenting where and how generative AI was used in a project, avoiding treating it as an unverified source of truth."
-  },
-  {
-    "objectID": "research.html#workforce-development-technology-transfer",
-    "href": "research.html#workforce-development-technology-transfer",
-    "title": "Research",
-    "section": "Workforce Development: Technology Transfer",
-    "text": "Workforce Development: Technology Transfer\nResearch and new technology only create value once people can actually use them. This line focuses on workforce development — building the training, documentation, and skill pathways that let research outcomes move out of the lab and into everyday practice:\n\nTechnical training programs: structured courses and workshops that bring practitioners up to speed on new tools, methods, or technologies coming out of the research.\nDocumentation & onboarding materials: clear, practice-oriented guides (not academic papers) that let a new user adopt a tool or method without direct supervision.\nSkills-gap analysis: identifying where a workforce’s current capabilities fall short of what a new technology or method requires, and designing training to close that gap.\nIndustry & institutional partnerships: working directly with employers, agencies, or training bodies so that technology transfer includes the human capacity to sustain it, not just the technology itself."
-  },
-  {
-    "objectID": "research.html#funding",
-    "href": "research.html#funding",
-    "title": "Research",
-    "section": "Funding",
-    "text": "Funding\n\nAI Institute: Agricultural AI for Transforming Workforce and Decision Support (AgAID), USDA-NIFA, in partnership with NSF, Award No.2021-67021-35344.\nWashington Soil Health Initiative supported by the State of Washington and administered by WSCC, WSDA, and WSU."
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "CV",
-    "section": "Education",
-    "text": "Education\nPhD, Computer Science, EECS, Washington State University — 2013–2018 Dissertation: Bipartite Network Community Detection: Algorithms and Applications, advised by Dr. Ananth Kalyanamaran\nMSc, Computer Science, EECS, Washington State University — 2011–2013\nBSc, Computer Science, Universidad de Cuenca — 2003–2009"
   }
 ]

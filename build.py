@@ -56,7 +56,7 @@ def cmd_render(quarto: str, file: str | None) -> int:
         cmd.append(file)
     code = run(cmd)
     if code == 0 and not file:
-        out = PROJECT_DIR / "_site" / "index.html"
+        out = PROJECT_DIR / "docs" / "index.html"
         print(f"\nBuilt site: {out}")
     return code
 
