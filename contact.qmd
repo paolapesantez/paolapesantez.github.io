@@ -1,0 +1,10 @@
+---
+title: "Contact"
+date-modified: "2026-08-18"
+---
+
+<div class="hero-eyebrow">Get in touch</div>
+
+<p>I'm happy to hear from prospective collaborators at p_._p_e_s_a_n_t_e_z_c_a_b_r_e_r_a@wsu.edu
+(remove the underscores).</p>
+

@@ -1,0 +1,46 @@
+---
+title: "CV"
+date-modified: "2026-08-18"
+---
+
+<div class="hero-eyebrow">Curriculum vitae</div>
+
+
+## Education
+
+**PhD, Computer Science**, EECS, Washington State University — 2013–2018
+Dissertation: *Bipartite Network Community Detection: Algorithms and Applications*, advised by Dr. Ananth Kalyanamaran
+
+**MSc, Computer Science**, EECS, Washington State University — 2011–2013
+
+**BSc, Computer Science**, Universidad de Cuenca — 2003–2009
+
+## Selected publications
+
+*(Full list with abstracts and links on the [Publications](publications.qmd) page.)*
+
+```{python}
+#| output: asis
+
+from pubs_lib import load_entries, format_authors, meta_line
+
+for i, entry in enumerate(load_entries(), start=1):
+    title = entry.get("title", "").strip("{}")
+    authors = format_authors(entry.get("author", ""), style="initials")
+    meta = meta_line(entry)
+    print(f"{i}. {authors} ({entry.get('year','')}). {title}. {meta.rsplit(' (', 1)[0]}.")
+```
+
+## Selected talks
+
+- 121st Annual Meeting and NW Hort Expo, “Persistir y Adaptarse Desafíos y Oportunidades de la Integración de la
+Inteligencia Artificial en la Agricultura,” Washington Tree Fruit Association, December 8-10, 2025.
+- STEM Possible 2025 Event, “The AgAID Institute,” First Nations MESA Program, May 23rd, 2025.
+- WineVit2025, “GrapeHardiNet: The AgAID Institute model to predict Cold Hardiness”, Washington Winegrowers
+Association, February 12, 2025.
+
+
+## Service
+
+- Journal of Parallel and Distributed Computing: Assistant Editor
+- HARVEST: International Workshop on Applications of CV and HPC in Agriculture - Program Committee

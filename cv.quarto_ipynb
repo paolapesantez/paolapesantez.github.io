@@ -1,0 +1,78 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"CV\"\n",
+        "date-modified: \"2026-08-18\"\n",
+        "---\n",
+        "\n",
+        "<div class=\"hero-eyebrow\">Curriculum vitae</div>\n",
+        "\n",
+        "\n",
+        "## Education\n",
+        "\n",
+        "**PhD, Computer Science**, EECS, Washington State University — 2013–2018\n",
+        "Dissertation: *Bipartite Network Community Detection: Algorithms and Applications*, advised by Dr. Ananth Kalyanamaran\n",
+        "\n",
+        "**MSc, Computer Science**, EECS, Washington State University — 2011–2013\n",
+        "\n",
+        "**BSc, Computer Science**, Universidad de Cuenca — 2003–2009\n",
+        "\n",
+        "## Selected publications\n",
+        "\n",
+        "*(Full list with abstracts and links on the [Publications](publications.qmd) page.)*"
+      ],
+      "id": "8ccf9844"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| output: asis\n",
+        "\n",
+        "from pubs_lib import load_entries, format_authors, meta_line\n",
+        "\n",
+        "for i, entry in enumerate(load_entries(), start=1):\n",
+        "    title = entry.get(\"title\", \"\").strip(\"{}\")\n",
+        "    authors = format_authors(entry.get(\"author\", \"\"), style=\"initials\")\n",
+        "    meta = meta_line(entry)\n",
+        "    print(f\"{i}. {authors} ({entry.get('year','')}). {title}. {meta.rsplit(' (', 1)[0]}.\")"
+      ],
+      "id": "b3c96481",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Selected talks\n",
+        "\n",
+        "- 121st Annual Meeting and NW Hort Expo, “Persistir y Adaptarse Desafíos y Oportunidades de la Integración de la\n",
+        "Inteligencia Artificial en la Agricultura,” Washington Tree Fruit Association, December 8-10, 2025.\n",
+        "- STEM Possible 2025 Event, “The AgAID Institute,” First Nations MESA Program, May 23rd, 2025.\n",
+        "- WineVit2025, “GrapeHardiNet: The AgAID Institute model to predict Cold Hardiness”, Washington Winegrowers\n",
+        "Association, February 12, 2025.\n",
+        "\n",
+        "\n",
+        "## Service\n",
+        "\n",
+        "- Journal of Parallel and Distributed Computing: Assistant Editor\n",
+        "- HARVEST: International Workshop on Applications of CV and HPC in Agriculture - Program Committee"
+      ],
+      "id": "cca556c4"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

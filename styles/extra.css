@@ -1,0 +1,197 @@
+/* ---------------------------------------------------------------
+   Signature element: the "accession stamp" — a small bordered,
+   monospace tag styled after library due-date / specimen catalog
+   stamps. Used on publications and notes, where academic work
+   already carries a real identifier (year, venue, DOI) — so the
+   stamp encodes real metadata rather than decorating for its own sake.
+   --------------------------------------------------------------- */
+
+.stamp {
+  display: inline-block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: #2B5F5A;
+  border: 1px solid #2B5F5A;
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  margin-bottom: 0.5rem;
+  transform: rotate(-1deg);
+}
+
+.stamp.rust { color: #A6532A; border-color: #A6532A; }
+
+/* ---------------- Hero ---------------- */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 1.5rem 0 2.5rem 0;
+  border-bottom: 1px solid #D9D2BE;
+  margin-bottom: 2.5rem;
+}
+
+.hero-eyebrow {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6B7B4F;
+  margin-bottom: 0.6rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  line-height: 1.05;
+  margin-bottom: 0.6rem;
+}
+
+.hero .role {
+  font-family: "Source Serif 4", serif;
+  font-style: italic;
+  color: #4B554B;
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.hero-portrait {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background: #F7F4EA;
+  border: 1px solid #D9D2BE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  color: #6B7B4F;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 2px;
+}
+
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.2rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+}
+
+.quick-links a { color: #1E2A24; border-bottom: 1px solid #D9D2BE; }
+.quick-links a:hover { color: #A6532A; border-color: #A6532A; }
+
+/* ---------------- Index-card grid (research areas) ---------------- */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.index-card {
+  border: 1px solid #D9D2BE;
+  background: #F7F4EA;
+  padding: 1.3rem 1.4rem;
+  border-radius: 2px;
+  position: relative;
+}
+
+.index-card .card-no {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  color: #A6532A;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.index-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+}
+
+.index-card p {
+  font-size: 0.92rem;
+  color: #4B554B;
+  margin-bottom: 0;
+}
+
+/* ---------------- Publication / note cards ---------------- */
+
+.pub-card {
+  border-bottom: 1px solid #D9D2BE;
+  padding: 1.3rem 0;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 1rem;
+}
+
+.pub-card:first-of-type { border-top: 1px solid #D9D2BE; margin-top: 1.5rem; }
+
+.pub-year {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85rem;
+  color: #6B7B4F;
+  padding-top: 0.2rem;
+}
+
+.pub-card h3 {
+  font-size: 1.08rem;
+  margin-bottom: 0.3rem;
+}
+
+.pub-meta {
+  font-size: 0.88rem;
+  color: #4B554B;
+  font-style: italic;
+  margin-bottom: 0.4rem;
+}
+
+.pub-links a {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-right: 1rem;
+}
+
+.pub-links a.cite-toggle {
+  color: #A6532A;
+  border-bottom: 1px dotted #A6532A;
+  cursor: pointer;
+}
+
+.cite-box {
+  display: none;
+  margin-top: 0.7rem;
+  padding: 0.8rem 1rem;
+  background: #F7F4EA;
+  border: 1px solid #D9D2BE;
+  border-radius: 2px;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: #4B554B;
+}
+
+.cite-box.open { display: block; }
+
+.circle-crop {
+  width: 250px;          /* Must be equal to height */
+  height: 250px;         /* Must be equal to width */
+  border-radius: 50%;    /* Turns the square into a perfect circle */
+  object-fit: cover;     /* Prevents distortion by cropping the edges */
+  object-position: center; /* Centers the image content inside the circle */
+  margin-top: 100px;
+}
+
+@media (max-width: 700px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-portrait { max-width: 220px; margin: 30 auto; }
+  .pub-card { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,49 @@
+---
+title: "Publications"
+date-modified: "2026-09-01"
+---
+
+<div class="hero-eyebrow">Peer-reviewed &amp; preprints, newest first</div>
+
+```{python}
+#| output: asis
+
+import html as _html
+from pubs_lib import load_entries, format_authors, meta_line, links_line, stamp_for, to_bibtex_string
+
+for entry in load_entries():
+    stamp_text, stamp_class = stamp_for(entry)
+    year = entry.get("year", "")
+    title = entry.get("title", "").strip("{}")
+    authors = format_authors(entry.get("author", ""))
+    meta = meta_line(entry)
+    note = entry.get("note")
+    links = links_line(entry)
+
+    bibtex_escaped = _html.escape(to_bibtex_string(entry))
+
+    print('<div class="pub-card">')
+    print(f'<div class="pub-year">{year}</div>')
+    print('<div>')
+    print(f'<span class="stamp {stamp_class}">{stamp_text}</span>')
+    print()
+    print(f'### {title}')
+    print()
+    print(f'{authors}. {meta}')
+    print()
+    if note:
+        print(f'<div class="pub-meta">{note}</div>')
+
+    print('<div class="pub-links">')
+    print("\n".join(links))
+    print('<a href="#" class="cite-toggle" onclick="'
+          f"this.closest('.pub-links').querySelector('.cite-box').classList.toggle('open');return false;"
+          '">Cite</a>')
+    print('</div>')
+
+    print(f'<pre class="cite-box"><code>{bibtex_escaped}</code></pre>')
+
+    print('</div>')
+    print('</div>')
+    print()
+```

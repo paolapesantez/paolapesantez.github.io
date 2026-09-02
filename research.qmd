@@ -1,0 +1,57 @@
+---
+title: "Research"
+date-modified: "2026-09-01"
+---
+
+<div class="hero-eyebrow">Research Statement</div>
+
+
+## Data Management: Frameworks
+
+Much of applied research fails not from a lack of data, but from a lack of structure for managing it.
+This line of work focuses on designing and implementing research data management frameworks that follow FAIR principles
+(Findable, Accessible, Interoperable, Reusable), with particular attention to three things:
+
+- Data governance: defining roles, permissions, and responsibilities across the data lifecycle, from field collection
+through long-term archiving.
+- Metadata & traceability: using standardized metadata schemas (e.g., Dublin Core) so a third
+party can understand and reuse a dataset without additional context.
+- Reproducibility: versioned workflows (Git, containers, declarative environments) that guarantee an analysis can be
+exactly repeated, even years later.
+
+
+## Generative AI: Tools for Research
+
+Language models are changing how science gets done, but their value depends on using them with judgment. This line
+explores concrete applications and their limits:
+
+- Assisted literature review: screening and initial synthesis of large volumes of papers, always with human verification
+of cited sources.
+- Exploratory data analysis: generating reproducible code (Python/R) for cleaning, visualization, and preliminary
+modeling — speeding up the exploratory phase without replacing rigorous statistical analysis.
+- Synthetic data: generating simulated data to test models or protect sensitive information before sharing a dataset.
+Ethical & methodological limits: transparently documenting where and how generative AI was used in a project, avoiding
+treating it as an unverified source of truth.
+
+
+## Workforce Development: Technology Transfer
+
+Research and new technology only create value once people can actually use them. This line focuses on workforce
+development — building the training, documentation, and skill pathways that let research outcomes move out of the lab
+and into everyday practice:
+
+- Technical training programs: structured courses and workshops that bring practitioners up to speed on new tools,
+methods, or technologies coming out of the research.
+- Documentation & onboarding materials: clear, practice-oriented guides (not academic papers) that let a new user adopt
+a tool or method without direct supervision.
+- Skills-gap analysis: identifying where a workforce's current capabilities fall short of what a new technology or
+method requires, and designing training to close that gap.
+- Industry & institutional partnerships: working directly with employers, agencies, or training bodies so that technology
+transfer includes the human capacity to sustain it, not just the technology itself.
+
+
+## Funding
+
+- AI Institute: Agricultural AI for Transforming Workforce and Decision Support (AgAID), USDA-NIFA,
+in partnership with NSF, Award No.2021-67021-35344.
+- Washington Soil Health Initiative supported by the State of Washington and administered by WSCC, WSDA, and WSU.

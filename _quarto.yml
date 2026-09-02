@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - references.bib
+
+website:
+  title: "PAOLA PESANTEZ-CABRERA"
+  site-url: "https://paolapesantezcabrera.com"
+  description: "Personal Website of Paola Pesantez-Cabrera"
+  favicon: images/favicon.ico
+  navbar:
+    background: mintcream
+    pinned: true
+    left:
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - text: "Contact"
+        href: contact.qmd
+      - icon: github
+        href: https://github.com/paolapesantez
+      - text: "{{< ai google-scholar size=2x >}}"
+        href: https://scholar.google.com/citations?user=EfjX5aMAAAAJ&hl=en
+      - text: "{{< ai orcid size=2x >}}"
+        href: https://orcid.org/0000-0002-5511-1037
+
+  page-footer:
+    left: "© 2026 Paola Pesantez-Cabrera · Built with [Quarto](https://quarto.org) + Python"
+    right: "[Back to top ↑](#top)"
+    background: mintcream
+
+format:
+  html:
+    theme: styles/custom.scss
+    css: styles/extra.css
+    toc: false
+    grid:
+      body-width: 1070px
+    fontsize: 1.05rem
+    smooth-scroll: true
+
+execute:
+  echo: false
+  warning: false
+  freeze: auto

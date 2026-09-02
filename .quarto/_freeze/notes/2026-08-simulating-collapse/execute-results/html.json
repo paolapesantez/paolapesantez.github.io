@@ -1,0 +1,12 @@
+{
+  "hash": "b771cde9a6fa5b0b462a96772ba9514c",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Simulating a simple resilience threshold\"\ndescription: \"A minimal agent-based model shows how small perturbations can flip a stable population into collapse.\"\ndate: \"2026-08-10\"\n---\n\nThis is an example note — replace it with your own. It shows the kind of\nthing this setup is good for: real Python code, run at render time, sitting\nnext to the explanation.\n\nWe simulate a population under a simple logistic growth rule with an added\nstress term, and sweep the stress parameter to find where the population\nstops recovering.\n\n::: {#cell-fig-collapse .cell execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![Population trajectories under increasing stress. Placeholder model — replace with your own.](2026-08-simulating-collapse_files/figure-html/fig-collapse-output-1.png){#fig-collapse width=662 height=315}\n:::\n:::\n\n\nAt low stress the population settles into a stable equilibrium. Past a\nthreshold, it can't recover fast enough between shocks and collapses to\nzero — the same qualitative behavior discussed on the [Research](/research.qmd)\npage, here in a model simple enough to fit in one code block.\n\n",
+    "supporting": [
+      "2026-08-simulating-collapse_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

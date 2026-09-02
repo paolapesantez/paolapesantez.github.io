@@ -1,0 +1,56 @@
+---
+title: "Simulating a simple resilience threshold"
+description: "A minimal agent-based model shows how small perturbations can flip a stable population into collapse."
+date: "2026-08-10"
+---
+
+This is an example note — replace it with your own. It shows the kind of
+thing this setup is good for: real Python code, run at render time, sitting
+next to the explanation.
+
+We simulate a population under a simple logistic growth rule with an added
+stress term, and sweep the stress parameter to find where the population
+stops recovering.
+
+```{python}
+#| label: fig-collapse
+#| fig-cap: "Population trajectories under increasing stress. Placeholder model — replace with your own."
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+def simulate(stress, steps=60, r=0.35, K=100, x0=80):
+    x = np.zeros(steps)
+    x[0] = x0
+    for t in range(1, steps):
+        growth = r * x[t-1] * (1 - x[t-1] / K)
+        x[t] = max(x[t-1] + growth - stress, 0)
+    return x
+
+ink, teal, rust, moss, line = "#1E2A24", "#2B5F5A", "#A6532A", "#6B7B4F", "#D9D2BE"
+stresses = [1, 4, 7]
+colors = [teal, moss, rust]
+
+fig, ax = plt.subplots(figsize=(7, 3.4))
+fig.patch.set_alpha(0)
+ax.set_facecolor("none")
+
+for s, c in zip(stresses, colors):
+    ax.plot(simulate(s), color=c, linewidth=2, label=f"stress = {s}")
+
+ax.set_xlabel("Time step", color=ink, fontsize=9)
+ax.set_ylabel("Population", color=ink, fontsize=9)
+ax.tick_params(colors=ink, labelsize=9)
+for spine in ["top", "right"]:
+    ax.spines[spine].set_visible(False)
+for spine in ["left", "bottom"]:
+    ax.spines[spine].set_color(line)
+ax.legend(frameon=False, fontsize=9, labelcolor=ink)
+plt.tight_layout()
+plt.show()
+```
+
+At low stress the population settles into a stable equilibrium. Past a
+threshold, it can't recover fast enough between shocks and collapses to
+zero — the same qualitative behavior discussed on the [Research](/research.qmd)
+page, here in a model simple enough to fit in one code block.

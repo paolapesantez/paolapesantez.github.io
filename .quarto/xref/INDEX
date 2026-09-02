@@ -1,0 +1,23 @@
+{
+  "research.qmd": {
+    "research.html": "0bceef09"
+  },
+  "notes.qmd": {
+    "notes.html": "863fe1bc"
+  },
+  "contact.qmd": {
+    "contact.html": "0eaede39"
+  },
+  "index.qmd": {
+    "index.html": "128f4560"
+  },
+  "publications.qmd": {
+    "publications.html": "0874bfc2"
+  },
+  "notes/2026-08-simulating-collapse.qmd": {
+    "2026-08-simulating-collapse.html": "d3a37f40"
+  },
+  "cv.qmd": {
+    "cv.html": "dc36c1d2"
+  }
+}

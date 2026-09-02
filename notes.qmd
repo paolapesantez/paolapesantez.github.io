@@ -1,0 +1,18 @@
+---
+title: "Notes"
+listing:
+  contents: notes
+  sort: "date desc"
+  type: default
+  categories: false
+  date-format: "MMM YYYY"
+  fields: [date, title, description]
+page-layout: article
+title-block-banner: false
+---
+
+<div class="hero-eyebrow">Short research notes &amp; working demos</div>
+
+<p>Informal write-ups, reproducible mini-analyses, and things I didn't want
+to forget. Each note is its own Quarto document, so code and figures stay
+attached to the text.</p>
