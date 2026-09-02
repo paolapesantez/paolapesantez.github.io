@@ -7,7 +7,7 @@ Quarto itself is a CLI (no importable Python API), so this wraps the
 data pulls, or just running the whole build with `python build.py`.
 
 Usage:
-    python build.py render            # build the static site into _site/
+    python build.py render            # build the static site into docs/
     python build.py render --file publications.qmd   # render one page
     python build.py preview           # live-reloading local preview
     python build.py check             # confirm quarto + deps are installed
@@ -66,7 +66,7 @@ def cmd_preview(quarto: str) -> int:
 
 
 def cmd_publish(quarto: str) -> int:
-    # Publishes _site/ to the gh-pages branch of the current git remote.
+    # Publishes docs/ to the gh-pages branch of the current git remote.
     return run([quarto, "publish", "gh-pages"])
 
 
@@ -80,7 +80,7 @@ def main() -> int:
     p_render.add_argument("--file", help="Render a single .qmd file instead of the whole project")
 
     sub.add_parser("preview", help="Start a live-reloading local preview server")
-    sub.add_parser("publish", help="Publish _site/ to GitHub Pages")
+    sub.add_parser("publish", help="Publish docs/ to GitHub Pages")
 
     args = parser.parse_args()
 

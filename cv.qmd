@@ -1,6 +1,6 @@
 ---
 title: "CV"
-date-modified: "2026-08-18"
+date-modified: "2026-09-01"
 ---
 
 <div class="hero-eyebrow">Curriculum vitae</div>
@@ -9,7 +9,7 @@ date-modified: "2026-08-18"
 ## Education
 
 **PhD, Computer Science**, EECS, Washington State University — 2013–2018
-Dissertation: *Bipartite Network Community Detection: Algorithms and Applications*, advised by Dr. Ananth Kalyanamaran
+Dissertation: *Bipartite Network Community Detection: Algorithms and Applications*
 
 **MSc, Computer Science**, EECS, Washington State University — 2011–2013
 
@@ -25,6 +25,8 @@ Dissertation: *Bipartite Network Community Detection: Algorithms and Application
 from pubs_lib import load_entries, format_authors, meta_line
 
 for i, entry in enumerate(load_entries(), start=1):
+    if i >= 6:
+        break
     title = entry.get("title", "").strip("{}")
     authors = format_authors(entry.get("author", ""), style="initials")
     meta = meta_line(entry)
