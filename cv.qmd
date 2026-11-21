@@ -1,6 +1,6 @@
 ---
 title: "CV"
-date-modified: "2026-09-01"
+date-modified: "2026-11-21"
 ---
 
 <div class="hero-eyebrow">Curriculum vitae</div>

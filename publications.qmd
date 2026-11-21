@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-date-modified: "2026-09-01"
+date-modified: "2026-11-21"
 ---
 
 <div class="hero-eyebrow">Peer-reviewed &amp; preprints, newest first</div>
